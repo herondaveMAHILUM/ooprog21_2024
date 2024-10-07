@@ -12,7 +12,7 @@ public class Billing {
     
     public double computeBill(double price, int quantity, int discount) {
         double total = (price * quantity) - discount;
-        total = total + (total * 0.08); // Adds 8% tax after discount
+        total = total + (total * 0.08);
         return total;
     }
 
